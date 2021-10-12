@@ -1,2 +1,4 @@
 # Galaxy_Using_Notes
-This is a description on the galaxy simulation code GALAXY (by J.A.Sellwood), with more step to step guidelines and template examples.
+This is a description on the galaxy simulation code GALAXY (by J.A.Sellwood), with more step to step guidelines and template examples from my learning and using experience to this efficient code.
+
+# 
