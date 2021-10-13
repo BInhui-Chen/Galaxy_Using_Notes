@@ -16,6 +16,6 @@ RK: don't worry anything that you unclear with in this part, this section is onl
 
 1. Download the template $runX.dat$ file on my GitHub.
 
-2. Modify the file as you want, the words after the pound sign is explation only for understaning the parameters meaning. A concre decription about the partemeters is available in Sec5 in the online manual of GALAXY(http://www.physics.rutgers.edu/~sellwood/manual.pdf)
+2. Modify the file as you want, the words after the pound sign is explation only for understaning the parameters meaning. A concre decription about the partemeters is available in Sec5 in the online manual of GALAXY(http://www.physics.rutgers.edu/~sellwood/manual.pdf). This template is a trial repeat of the ModelA in Sellwood & Gerhard 2020(https://ui.adsabs.harvard.edu/abs/2020MNRAS.495.3175S/abstract).
 
 3. 
