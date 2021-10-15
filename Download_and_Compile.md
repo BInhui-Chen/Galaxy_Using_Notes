@@ -16,38 +16,40 @@ RK: the download file is tiny, only a few Mbs.
 
 # 2.Compile Section
 
+!!! Require modification!
+
 1. Decompressed the galaxy.tar(tgz): change to the directory of the galaxy.tar file (on Gravity using terminal, the Jupyter Lab doesn't work!)
 
-2. Command: tar xvf galaxy.tar OR tar xzf galaxy.tgz (opitional: rm the .tar file), then there will be a GALAXY15 folder in the same directory
+2. -$ tar xvf galaxy.tar OR tar xzf galaxy.tgz (opitional: rm the .tar file), then there will be a GALAXY15 folder in the same directory
 
-3. Command: module load mpi/openmpi-3.1.1, load the mpi module for the mpi usage of GALAXY
+3. -$ module load mpi/openmpi-3.1.1 (load the mpi module for the mpi usage of GALAXY)
 
-4. Command: cd GALAXY15/SRC/lib15
+4. -$ cd GALAXY15/SRC/lib15
 
-5. Command: ./rebuild
+5. -$ ./rebuild
 
-6. Command: cd ../RAJ
+6. -$ cd ../RAJ
 
-7. Command: ./rebuild
+7. -$ ./rebuild
 
-8. Command: cd ../utils
+8. -$ cd ../utils
 
-9. Command: ./rebuild
+9. -$ ./rebuild
 
-10. Command: cd ../lib15_mpi
+10. -$ cd ../lib15_mpi
 
-11. Command: ./rebuild
+11. -$ ./rebuild
 
-12. Command: cd ../progs
+12. -$ cd ../progs
 
 13. edit the PATH of the PGPLOT object library in the Makefile (in the progs directory): change the line begin with "pgplot_lib = "(line 9), replace the later words in the line by the correct PATH
 
 14. edit the same Makefile line that begins with "sys_lib = ", replate later words in the line by -lgfortran -L/usr/X11R6/lib64 -L/usr/lib64 -lX11 -lpng
 
-15. Command: cd ../progs_mpi, repeat the same operations as step. 13 & 14
+15. -$ make
 
-16. Command: make
+16. -$ make clean
 
-17. Command: make clean
+17. -$ cd ../progs_mpi, repeat the same operations as step.14 to step 16. RK: Do not repeat step 13!
 
 You have done it!😁😁😁
