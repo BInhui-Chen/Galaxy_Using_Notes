@@ -47,7 +47,17 @@ Step1: touch a .qsub script on your working directory
 
 Step2: copy the example script on https://gravity-doc.github.io/Basic/Job.html Sec.Basic.3 to your .qsub file
 
-Step3: modify the command below the line "# run your own program!!!", recommend to add "chmod +X runXs.s" and "chmod +X runX.s" first and then "./runXs.s" and "./runX.s"
+Step3: modify the command below the line "# run your own program!!!", recommend:
+
+cd /home/<your user name on gravity>/<your working directory>/
+
+chmod +X runXs.s
+
+chmod +X runX.s
+
+./runXs.s
+
+./runX.s
 
 \\
 
