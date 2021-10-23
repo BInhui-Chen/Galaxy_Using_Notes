@@ -21,7 +21,15 @@ Step3(opitional): modify the the parameters as you need.
 
 ## Complete Steps:
 
+PartA: The ID number and grid method (which method using for gravity calculation) part.
 
+Step1: run no			X  (The X only for distinguishin)
+
+Step2: grid type		c3d (or other method you want) (different method may need different parameters in below)
+
+
+
+Part B
 ## Decription on the parameters meanning
 
 # Sec2. Editting the shell script for interactive simulation running.
